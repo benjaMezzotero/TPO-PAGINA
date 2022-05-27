@@ -1,0 +1,548 @@
+/* CSS HEX */
+/* --yellow-green-crayola: #d9ed92ff;
+--yellow-green-crayola-2: #b5e48cff;
+--granny-smith-apple: #99d98cff;
+--ocean-green: #76c893ff;
+--keppel: #52b69aff;
+--viridian-green: #34a0a4ff;
+--blue-munsell: #168aadff;
+--cg-blue: #1a759fff;
+--lapis-lazuli: #1e6091ff;
+--yale-blue: #184e77ff;*/
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Roboto Condensed', sans-serif;
+
+}
+
+body {
+    font-family: ;
+    font-size: ;
+    font-weight: ;
+    font-style: ;
+    color:#168aadff;
+
+}
+
+main{
+    margin:0 150px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#miFooter{
+    /* position: fixed; */
+    text-align: center;
+    padding: 5PX;
+    background-color:#76c893ff;
+    margin-top: 0PX;
+}
+
+
+/* HEADER */
+ 
+* header{
+    background-color: #76c893ff;
+    color: ;
+    box-shadow:0 0 5px grey;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#logo:hover{
+    color:#168aadff;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    z-index: 99;
+    font-weight: bold;
+
+}
+
+.navlinks{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: #184e77ff;
+   
+    
+}
+
+.navlinks a{
+    color:#184e77ff;
+}
+
+.navlinks a:hover{
+    color:#168aadff;
+}
+
+
+/* INDEX */
+
+#banner{
+    display: flex;
+    background-image: ;
+    background-size: ;
+    background-position: ;
+    height: ;
+    padding: 80px;
+    background-color:rgb(149, 227, 179);
+
+    /* box-shadow: inset 0 0 0 2000px rgba(84, 84, 84, 0.511);*/
+
+}
+
+.dflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 80px;
+    background-color:rgb(149, 227, 179) ;
+    text-align: center;
+}
+
+.cajaindex{
+    background-color: rgb(188, 238, 207) ;
+    width: 95%;
+    height: 520px;
+    margin: 5px;
+    margin-button: ;
+    text-align: center ;
+    padding: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.cajaindex h2{
+    margin: 15px;
+}
+
+.cajaindex img{
+    margin-top: 30px;
+}
+
+.cardbanner{
+    margin: 0% auto;
+    text-align: center;
+    padding: 0%a auto;
+    /* align-items: center */
+
+}
+
+.cardbanner h1{
+    color: ;
+    font-size: 4vw;
+
+}
+
+.cardbanner h2{
+    color: ;
+    font-size: 1.5vw;
+    margin: 20px;
+    text-align: center;
+    align-items: center; */
+    /* display: flex; */
+    /* justify-content: center;
+    /* width: 60%; */
+    height: 30%;
+
+}
+
+/* ACTIVIDADES */
+
+.cajaAct{
+    background-color: rgb(134, 226, 166);
+    width: 1020px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    z-index: 99;
+    align-self: center;
+}
+
+.cajaAct h2{
+    margin: 15px;
+}
+
+.cajaAct p{
+    margin: 15px;
+    
+}
+
+.gridActividades{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 50px;
+}
+
+
+.girdActividades{
+    background-color: #76c893ff;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    margin: 80px;
+    flex-direction: column;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* CONTACTO */
+
+#contacto{
+    background-color: rgba(134, 226, 166, 0.315);
+
+}
+
+.cajaConjunto2 {
+    display: grid;
+    width: 768px;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 20px;
+}
+
+.cajaConjunto1 {
+    display: grid;
+    width: 768px;
+    height: 100%;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+
+.cajaMapa{
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 50px; 
+}
+
+.cajaMapa{
+    margin: 20px;
+
+}
+
+.cajaInfo{
+    margin: 20px;
+    margin-left:110px;
+}
+
+
+
+@media screen and (max-width:768px){ 
+    
+    main{
+        margin: 0px 0px;
+    }
+
+    .cajaindex{
+        height: 680px;
+    }
+
+    .cardbanner h1{
+        color: ;
+        font-size: 6vw;
+    
+    }
+    
+    .cardbanner h2{
+        color: ;
+        font-size: vw;
+        margin: 0px;
+        text-align: center;
+        align-items: center; */
+        /* display: flex; */
+        /* justify-content: center;
+        /* width: 60%; */
+        height: 30%;
+    }
+
+    .cajaindex img{
+        margin-top: 30px;
+        width: 500px;
+        align-self: center;
+    }
+
+    .container{
+        background-color:rgba(134, 226, 166, 0.315);
+        width: 100%;
+    }
+
+    .cajaAct{
+        background-color: rgb(134, 226, 166);
+        width: 720px;
+        height: 200px;
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 50px;
+        box-sizing: border-box;
+        z-index: 99;
+        align-self: center;
+    }
+
+
+    .cajaAct h2{
+        margin: 0px;
+    }
+    
+    .cajaAct p{
+        margin: px;
+        
+    }
+    
+    .gridActividades{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px;
+    }
+    
+    
+    .girdActividades{
+        background-color: #76c893ff;
+        display: flex;
+        height: 70px;
+        width: 100%;
+        margin: 00px;
+        flex-direction: column;    
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .cajaAct{
+        background-color: rgb(134, 226, 166);
+        width: 720px;
+        height: 200px;
+        margin: 50px 10px;
+        display: grid;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 50px;
+        box-sizing: border-box;
+        z-index: 99;
+        gap: 20px;
+    }
+
+
+    .cajaAct h2{
+        margin: 15px;
+    }
+    
+    .cajaAct p{
+        margin: 15px;
+        
+    }
+
+
+    #contacto{
+        background-color: rgba(134, 226, 166, 0.315);
+
+    }
+
+    .cajaConjunto2 {
+        display: grid;
+        width: 768px;
+        height: 100%;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px;
+    }
+
+    .cajaConjunto1 {
+        display: grid;
+        width: 768px;
+        height: 100%;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    
+    .cajaInfo{
+        margin-right: 64px;
+    }
+
+    .cajaMapa{
+        width: 600px;
+        margin-top: 10px;
+        margin-bottom: 50px; 
+    }
+}
+
+
+
+
+
+@media screen and (max-width:390px){ 
+
+    #banner{
+        display: flex;
+        background-image: ;
+        background-size: ;
+        background-position: ;
+        height: ;
+        padding: 80px;
+        background-color:rgb(149, 227, 179);
+    
+        /* box-shadow: inset 0 0 0 2000px rgba(84, 84, 84, 0.511);*/
+    
+    }
+    
+    .dflex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+    
+    .container{
+        max-width: 1200px;
+        margin: 0px;
+        background-color:rgb(149, 227, 179) ;
+        text-align: center;
+    }
+    
+    .cajaindex{
+        background-color: rgb(188, 238, 207) ;
+        width: 95%;
+        height: 680px;
+        margin: 5px;
+        margin-button: ;
+        text-align: justify ;
+        padding: 20px;
+    }
+    
+    .cajaindex h2{
+        margin: 15px;
+        text-align: center;
+
+    }
+    
+    .cajaindex img{
+        margin-top: 30px;
+        margin-left: 25px;
+        margin-right: 25px;
+        width: 250px;
+        height: auto;
+        align-self: center;
+    }
+    
+
+    .cardbanner{
+        margin: 0% auto;
+        text-align: center;
+        padding: 0% auto;
+        /* align-items: center */
+    
+    }
+    
+    .cardbanner h1{
+        color: ;
+        font-size: 15vw;
+    
+    }
+    
+    .cardbanner h2{
+        color: ;
+        font-size: 4vw;
+        margin: 0px;
+        text-align: center;
+        align-items: center; */
+        /* display: flex; */
+        /* justify-content: center;
+        /* width: 60%; */
+        height: 30%;
+    }
+
+
+
+    #contacto{
+        background-color: rgba(134, 226, 166, 0.315);
+
+    }
+
+    .cajaConjunto2 {
+        margin-left: 100px;
+        display: grid;
+        width: 768px;
+        height: 100%;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+    }
+
+    .cajaConjunto1 {
+        display: grid;
+        width: 300px;
+        height: 100%;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    
+    .cajaInfo{
+        margin-right: 64px;
+        margin-left: 68px;
+    }
+
+    .cajaMapa{
+        margin-top: 10px;
+        margin-bottom: 50px; 
+    }
+    
+
+}
+
+

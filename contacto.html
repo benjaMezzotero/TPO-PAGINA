@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Casita de Coca</title>
+    <!-- PONER ICONO -->
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./css/celulares.css" media="only screen and (max-width: 480px)">
+    <script src="https://kit.fontawesome.com/85f8d58603.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <div id="logo">
+                    <i class="fa-solid fa-om fa-2x"></i>
+                    <span id="titulo">
+                    La Casita de Coca
+                    </span>
+                </div>
+            </a>
+            <ul class="navlinks">
+                <li><a href="actividades.html"> <i class="fa-solid fa-spa"></i> Nuestras actividades </a></li>
+                <li><a href="contacto.html"> <i class="fa-solid fa-phone"></i> </i> Contacto</a></li>
+                <li><a href="https://goo.gl/maps/qT15FBWAwwqTnqg46" target="_blank"> <i class="fa-solid fa-compass"></i> Como llegar </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contacto" class="dflex">
+            <div class="cajaConjunto2">
+                <div class="cajaContacto">
+                    <h2>Consultenos</h2> <br>
+                    <form action="">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="name" required> <br><br>
+                        <label for="celular">Celular:</label>
+                        <input type="number" id="celular" required > <br><br>
+                        <label for="email">E-Mail:</label>
+                        <input type="text" id="email" required> <br><br>
+                        <label for="consulta">¿Cómo podemos ayudarlo?</label><br>
+                        <textarea name="consulta" id="consulta" cols="30" rows="10" required></textarea> <br>
+                        <button type="submit" value="Enviar">Enviar </button>
+                        <p class="warnings" id="warnings"></p>
+                    </form>
+                </div>
+                <div class="cajaInfo">
+                    <h2> Información de contacto</h2> <br>
+                    <p><b>Telefono:</b> 4573 0398 </p> <br>
+                    <p><b>Celular:</b> 11 5053 8110 </p> <br>
+                    <p><b>Direccion:</b> Gavilán 3580 Villa Pueyrredón - CABA </p> 
+                </div> 
+            </div>
+            <div class="cajaConjunto1">
+                <div class="cajaMapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5761394560827!2d-58.48917098423723!3d-34.589590064258836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb63fc42738b1%3A0xc8f46559ce1a2537!2sLa%20Casita%20de%20Coca!5e0!3m2!1ses!2sar!4v1653443948554!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="miFooter" >
+        Todos los derechos reservados a La Casita de Coca - 2022 ©
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
